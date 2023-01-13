@@ -1,5 +1,6 @@
 package com.vesska;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.appear;
@@ -11,6 +12,7 @@ import static io.qameta.allure.Allure.step;
 public class RegistrationTest extends TestBase {
 
     @Test
+    @Tag("smoke")
     void successfulRegistrationTest() {
         step("Open registrations form", () -> {
             open("/automation-practice-form");
