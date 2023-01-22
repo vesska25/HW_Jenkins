@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9290d7f-feb9-43f2-9519-1efe7aa88dfb" name="Changes" comment="added telegram bot" />
+    <list default="true" id="a9290d7f-feb9-43f2-9519-1efe7aa88dfb" name="Changes" comment="added jenkins parameters">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vesska/config/WebDriverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vesska/config/WebDriverProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vesska/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vesska/TestBase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,18 +71,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/hadou/IdeaProjects/HW_Jenkins/notifications"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hadou/IdeaProjects/HW_Jenkins/notifications&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hadou\IdeaProjects\HW_Jenkins\notifications" />
       <recent name="C:\Users\hadou\IdeaProjects\HW_Jenkins\src\test\resources\img" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HW_Jenkins [smoke_tests]">
+  <component name="RunManager" selected="Gradle.RegistrationTest">
     <configuration name="HW_Jenkins [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -167,8 +173,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HW_Jenkins [smoke_tests]" />
         <item itemvalue="Gradle.RegistrationTest" />
+        <item itemvalue="Gradle.HW_Jenkins [smoke_tests]" />
         <item itemvalue="Gradle.HW_Jenkins [allureReport]" />
         <item itemvalue="Gradle.RegistrationTest.successfulRegistrationTest" />
       </list>
@@ -197,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673808207934</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added jenkins parameters">
+      <created>1673808549672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673808549672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +227,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added test for Jenkins" />
     <MESSAGE value="added telegram bot" />
-    <option name="LAST_COMMIT_MESSAGE" value="added telegram bot" />
+    <MESSAGE value="added jenkins parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="added jenkins parameters" />
   </component>
 </project>
